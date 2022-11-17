@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Efe = {
+            isim : 'Efe',
+            cins : 'British',
+            renk : 'Gri',
+            cinsiyet : 'Erkek',
+            hobi : ['Yemek yemek' , 'Oyun Oynamak' , 'Uyumak']
+        };
+        // hobileri alt alta yazdıralım;
+        Efe.hobi.forEach(function(item){
+            console.log(item);
+        })
+
+
+        var kedilerim = [
+            {
+            isim : 'Bade',
+            cins : 'Scottish',
+            renk : 'Beyaz',
+            cinsiyet : 'Dişi',
+            hobi : ['Oyun Oynamak' , 'Dışarı Çıkmak'] },
+            {
+            isim : 'Leyla',
+            cins : 'Bombay',
+            renk : 'Siyah',
+            cinsiyet : 'Dişi',
+            hobi : ['Dışarı Çıkmak' , 'Uyumak']  },
+            {
+            isim : 'Efe',
+            cins : 'British',
+            renk : 'Gri',
+            cinsiyet : 'Erkek',
+            hobi : ['Yemek yemek' , 'Oyun Oynamak' , 'Uyumak']
+            }
+    ];
+    // Kedilerin cinsini ve hobilerini yazdıralım.
+        kedilerim.forEach(function(kedilerim){
+            console.log('*********************');
+            console.log(kedilerim.cins + ' ' + kedilerim.isim)   
+
+        kedilerim.hobi.forEach(function(hobi){
+            console.log(hobi);
+        
+        });
+            console.log('*********************');
+        });
+     
+    </script>
+</body>
+</html>
